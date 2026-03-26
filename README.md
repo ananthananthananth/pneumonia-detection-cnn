@@ -6,7 +6,7 @@ A deep learning project that detects pneumonia from chest X-ray images using CNN
 
 ## 📌 Motivation
 
-Pneumonia is one of the leading causes of death worldwide, particularly in children under 5 and the elderly. Timely diagnosis is critical, but access to expert radiologists is limited in many parts of the world. This project explores how computer vision can assist in automating pneumonia detection from chest X-rays — potentially making diagnosis faster, cheaper, and more accessible.
+Pneumonia is one of the leading causes of death worldwide, particularly in children under 5 and the elderly. Timely diagnosis is critical, but access to expert radiologists is limited in many parts of the world. This project explores how computer vision can assist in automating pneumonia detection from chest X-rays, potentially making diagnosis faster, cheaper, and more accessible.
 
 ---
 
@@ -85,9 +85,9 @@ Evaluation (Accuracy, Precision, Recall, F1, Confusion Matrix)
 
 ```
 Pneumonia-Detection/
-├── Capstone_Final_Submission.ipynb   # Full notebook with code, outputs & analysis
-├── Capstone_Final_report.pdf         # Written project report
-├── Capstone_Final_report_v2.pptx     # Presentation slides
+├── Capstone_Final_Code.ipynb   # Full notebook with code, outputs & analysis
+├── Capstone_Final_Code.html    # HTML site with code, outputs & analysis
+├── Capstone_Final_Presentation.pptx     # Presentation slides
 └── README.md
 ```
 
@@ -101,17 +101,4 @@ Pneumonia-Detection/
 - The Mask R-CNN experiment was limited by Colab's compute constraints but showed promising direction
 
 ---
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ananthananthananth/Pneumonia-Detection.git
-   ```
-2. Open `Capstone_Final_Submission.ipynb` in Google Colab
-3. Mount your Google Drive and update the dataset paths in the notebook
-4. Download the dataset from [Kaggle](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge) and place it in your Drive
-
----
-
 *This project was completed as a capstone submission. Dataset courtesy of the Radiological Society of North America (RSNA).*
