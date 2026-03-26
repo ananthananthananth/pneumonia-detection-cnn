@@ -101,4 +101,17 @@ Pneumonia-Detection/
 - The Mask R-CNN experiment was limited by Colab's compute constraints but showed promising direction
 
 ---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ananthananthananth/pneumonia-detection-cnn.git
+   ```
+2. Open `Capstone_Final_Code.ipynb` in Google Colab
+3. Mount your Google Drive and update the dataset paths in the notebook
+4. Download the dataset from [Kaggle](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge) and place it in your Drive
+
+---
+
 *This project was completed as a capstone submission. Dataset courtesy of the Radiological Society of North America (RSNA).*
