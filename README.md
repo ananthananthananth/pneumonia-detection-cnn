@@ -20,7 +20,7 @@ Pneumonia is one of the leading causes of death worldwide, particularly in child
 | Pneumonia cases | 6,012 (22.5%) |
 | Normal cases | 20,672 (77.5%) |
 | Image format | DICOM (.dcm) |
-| Image size | 1024 × 1024 px (resized to 224×224 for training) |
+| Image size | 1024 × 1024 px (resized to 224×224 px for training) |
 
 Key observations from EDA:
 - Significant **class imbalance** — addressed using class weights during training
