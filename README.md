@@ -86,7 +86,6 @@ Evaluation (Accuracy, Precision, Recall, F1, Confusion Matrix)
 ```
 pneumonia-detection-cnn/
 ├── Capstone_Final_Code.ipynb   # Full notebook with code, outputs & analysis
-├── Capstone_Final_Code.html    # HTML site with code, outputs & analysis
 ├── Capstone_Final_Presentation.pptx     # Presentation slides
 └── README.md
 ```
