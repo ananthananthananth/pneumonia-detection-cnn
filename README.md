@@ -1,16 +1,16 @@
-# 🫁 Pneumonia Detection from Chest X-Rays
+#  Pneumonia Detection from Chest X-Rays
 
 A deep learning project that detects pneumonia from chest X-ray images using CNNs, transfer learning (ResNet50, DenseNet121), and an R-CNN model for localization. Built as a capstone project on the RSNA Pneumonia Detection Challenge dataset.
 
 ---
 
-## 📌 Motivation
+##  Motivation
 
 Pneumonia is one of the leading causes of death worldwide, particularly in children under 5 and the elderly. Timely diagnosis is critical, but access to expert radiologists is limited in many parts of the world. This project explores how computer vision can assist in automating pneumonia detection from chest X-rays, potentially making diagnosis faster, cheaper, and more accessible.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Source:** [RSNA Pneumonia Detection Challenge](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge) (Kaggle)
 
@@ -29,7 +29,7 @@ Key observations from EDA:
 
 ---
 
-## 🧠 Models & Results
+##  Models & Results
 
 Eight models were trained and evaluated, progressively increasing in complexity:
 
@@ -49,7 +49,7 @@ Eight models were trained and evaluated, progressively increasing in complexity:
 
 ---
 
-## 🔧 Pipeline
+##  Pipeline
 
 ```
 DICOM Images
@@ -72,7 +72,7 @@ Evaluation (Accuracy, Precision, Recall, F1, Confusion Matrix)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3** · TensorFlow / Keras · PyTorch (Mask R-CNN attempt)
 - **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Plotly, Scikit-learn
@@ -81,7 +81,7 @@ Evaluation (Accuracy, Precision, Recall, F1, Confusion Matrix)
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 pneumonia-detection-cnn/
@@ -92,7 +92,7 @@ pneumonia-detection-cnn/
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 - Transfer learning on medical images significantly outperforms a scratch-trained CNN
 - **DenseNet121** is well-suited for this task due to its dense connectivity and feature reuse
@@ -101,7 +101,7 @@ pneumonia-detection-cnn/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
